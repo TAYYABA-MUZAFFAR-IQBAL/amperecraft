@@ -102,11 +102,13 @@ const Contact = () => {
           <div className={styles.formgroup}>
             <label htmlFor="name">Name</label>
             <input
+            
               type="text"
               id="name"
               name="name"
               value={formData.name}
               onChange={handleChange}
+               className={styles.input}
               required
             />
           </div>
@@ -118,6 +120,7 @@ const Contact = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
+               className={styles.input}
             />
           </div>
           <div className={styles.formgroup}>
@@ -128,6 +131,7 @@ const Contact = () => {
               name="subject"
               value={formData.subject}
               onChange={handleChange}
+               className={styles.input}
             />
           </div>
           <div className={styles.formgroup}>
@@ -137,6 +141,7 @@ const Contact = () => {
               name="message"
               value={formData.message}
               onChange={handleChange}
+               className={styles.input}
             />
           </div>
           <div className={styles.buttondiv}>

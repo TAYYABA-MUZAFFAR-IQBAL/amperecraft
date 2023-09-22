@@ -4,10 +4,10 @@ const Navbar = () => {
     return (
         <header>
             <nav className={styles.navbar} >
-                         
-            <section  className={styles.logo}>
-                Amperecraft
-            </section>
+
+                <section className={styles.logo}>
+                    <img className={styles.logoimage} src="logo.png" alt="logo" />
+                </section>
                 <ul>
                     <li>
                         <Link href="/">Home</Link>

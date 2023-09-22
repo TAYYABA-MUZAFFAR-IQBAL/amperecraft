@@ -106,16 +106,24 @@
 }
 
 .button {
-  background-color: #dc3545;
+  background-color: #35dc46;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 10px;
-  color: azure;
-
+  border: none;
+  border-radius: 7px;
+  font-size: larger;
+  color: #ffffff;
+  cursor: pointer;
+transition: all 0.3s;
 }
+.button:hover{
+  opacity: 0.8;
+  transition: all 0.3s;
 
+  box-shadow: 0 3px 10px #32323283;
+}
 .heading {
   text-align: center;
   color: rgb(70, 67, 67);
@@ -126,4 +134,21 @@
   color: rgb(70, 67, 67);
   margin-bottom: 50px;
   margin-top: 50px;
+}
+.input{
+  border: 1px solid #0002;
+  transition: all 0.1s;
+}
+.input:focus{
+outline: 2px solid #a9cfd0;
+outline-offset: 2px;
+transition: all 0.1s;
+
+border: none !important;
+}
+.input:empty:active{
+box-shadow: 0 3px 7px #00000063;
+transition: all 0.2s;
+
+
 }

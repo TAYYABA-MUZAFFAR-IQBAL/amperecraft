@@ -88,7 +88,7 @@ const Services = () => {
                         </AnimatedSection>
                     </div>
                 </section>
-                <AnimatedSection animationClass="animate__slideInDown">
+                <AnimatedSection animationClass="animate__fadeInUp">
                 <p className={styles.contactcontent}>To unlock the limitless possibilities of PCB manufacturing, contact us today and bring your innovations to life !</p>
 
                 <div className={styles.btn}>
