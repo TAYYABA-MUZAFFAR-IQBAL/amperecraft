@@ -1,0 +1,129 @@
+/* pages/Contact.module.css */
+.contactpage{
+  background-color: white;
+}
+.sectionhead{
+  padding-top: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+/* Form Styles */
+.formcontainer {
+  border: 2px solid rgb(224, 216, 216);
+  background-color: (90deg,rgba(0, 0, 0, 0.489), transparent);
+  padding: 50px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  text-align: center;
+  /* background-color: lightgrey; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow */
+  z-index: 1; 
+}
+
+.formcontainer h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.formgroup {
+  margin-bottom: 20px;
+}
+
+.formgroup label {
+  display: block;
+  font-weight: bold;
+  text-align: left;
+  color: rgb(70, 67, 67);
+  margin-bottom: 5px;
+}
+
+.formgroup input[type="text"],
+.formgroup input[type="email"],
+.formgroup textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formgroup textarea {
+  height: 150px;
+}
+
+
+/* Loading Spinner Styles */
+.loadingspinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.loadingspinner .spinner {
+  animation: rotate 2s linear infinite;
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(0, 123, 255, 0.2);
+  /* Loading spinner color */
+  border-top: 4px solid #ff0000;
+  /* Loading spinner color */
+  border-radius: 50%;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Success Message Styles */
+.successmessage {
+  display: none;
+  margin-top: 20px;
+  color: #28a745;
+  /* Success message color */
+}
+
+/* Error Message Styles */
+.errormessage {
+  display: none;
+  margin-top: 20px;
+  color: #dc3545;
+  /* Error message color */
+}
+
+.buttondiv {
+  align-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: #dc3545;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  color: azure;
+
+}
+
+.heading {
+  text-align: center;
+  color: rgb(70, 67, 67);
+}
+
+.subheading {
+  text-align: center;
+  color: rgb(70, 67, 67);
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
