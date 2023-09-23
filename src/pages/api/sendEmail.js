@@ -19,7 +19,7 @@ export default async (req, res) => {
       from: email,
       to: 'amperecraft@gmail.com', // Replace with the recipient's email
       subject,
-      text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
+      text: `Subject: ${subject}\nName: ${name}\nEmail: ${email}\nMessage: ${message}`,
     };
 
     // Send the email
